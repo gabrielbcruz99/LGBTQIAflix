@@ -1,0 +1,47 @@
+@media screen and (max-width: 700px) {
+
+    .botao-menu:hover {
+        background-color: black;
+        border-radius: 5px;
+        font-size: 20px;
+        padding: 10px;
+        box-shadow: 2px 2px 3px 5px #666;
+        transition: ease-in-out 300ms;  
+    } 
+
+    header .container {
+         display: flex;
+         flex-direction: column;
+     }
+
+     .botao {
+         margin-top: 15px;
+        width: 200px;
+        height: 60px;
+     }
+     .botao:hover{
+        top:-4px;
+        box-shadow:0 4px 3px #999 
+     }
+     .carrosel-filmes {
+        margin-top: 25px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .botao-menu:hover {
+        border-radius: 5px;
+        font-size: 20px;
+        padding: 10px;
+        box-shadow: 2px 2px 3px 5px;
+        transition: ease-in-out 300ms;  
+    } 
+
+    .descricao{
+        width: 50%;
+    }
+
+    .carrosel-filmes {
+        margin-top: 15px;
+    }
+}
